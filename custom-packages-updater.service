@@ -5,4 +5,4 @@ Description=Service that checks for updates and rebuilds the packages on updates
 Type=oneshot
 User=builder
 Group=builder
-ExecStart=/usr/bin/bash /root/custom-packages-updater/custom-packages-updater.sh
+ExecStart=/usr/bin/bash /usr/bin/custom-packages-updater.sh
