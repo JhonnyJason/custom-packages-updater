@@ -1,0 +1,9 @@
+[Unit]
+Description=Check for updates daily
+
+[Timer]
+OnCalendar=*-*-* 5:00:00
+RandomizedDelaySec=2h
+
+[Install]
+WantedBy=timers.target
