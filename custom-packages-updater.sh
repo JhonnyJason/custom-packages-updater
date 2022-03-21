@@ -1,7 +1,7 @@
 #!/bin/bash
 cd /home/builder/builds/custom-package-script/
 uptodate=$(git pull origin master | gawk '{if($0=="Already up to date.") print "yes"}')
-if [$updtodate == "yes"]
+if [ $uptodate == "yes" ]
 then
     echo "nothing to do."
 else
